@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Report</title>
+    <link rel="stylesheet" href="weatherForecast.css">
+</head>
+
+<body>
+    <div class="container">
+        <section class="current-weather">
+            <h1>Weather</h1>
+            <p><input type="text" id="postcodeInput" placeholder="Enter postcode">
+                <button id="showButton">Show me the weather</button>
+            </p>
+
+            <div id="weatherDiv" hidden>
+                <h2>Todays weather for <span id="locationSpan"></span></h2>
+                <div class="todays-weather">
+                    <h2><span id="temperatureSpan"></span>&deg;C</h2>
+                    <img src="#" id="currentWeatherIcon">
+                    <p><span id="descriptionSpan"></span></p>
+                    <p>Max Temp <strong><span id="maxTemperatureSpan"></span></strong></p>
+                    <p>Min Temp <strong><span id="minTemperatureSpan"></span></strong></p>
+                </div>
+            </div>
+            <div id="errorDiv" hidden>
+                <h2>Unable to fetch weather for <span id="postcodeSpan"></span></h2>
+            </div>
+        </section>
+        <h2 id="forecastIntro" hidden>Weather forecast for rest of the week</h2>
+        <section class="weather-forecast">
+            <div id="day2" hidden>
+                <p><span id="dateSpan2"></span></p>
+                <img src="#" id="day2Icon">
+                <p><span id="descriptionSpan2"></span></p>
+                <p>Max Temp <strong><span id="maxTemperatureSpan2"></span></strong></p>
+                <p>Min Temp <strong><span id="minTemperatureSpan2"></strong></span></p>
+            </div>
+            <div id="day3" hidden>
+                <p><span id="dateSpan3"></span></p>
+                <img src="#" id="day3Icon">
+                <p><span id="descriptionSpan3"></span></p>
+                <p>Max Temp <strong><span id="maxTemperatureSpan3"></span></strong></p>
+                <p>Min Temp <strong><span id="minTemperatureSpan3"></span></strong></p>
+            </div>
+            <div id="day4" hidden>
+                <p><span id="dateSpan4"></span></p>
+                <img src="#" id="day4Icon">
+                <p><span id="descriptionSpan4"></span></p>
+                <p>Max Temp <strong><span id="maxTemperatureSpan4"></span></strong></p>
+                <p>Min Temp <strong><span id="minTemperatureSpan4"></span></strong></p>
+            </div>
+            <div id="day5" hidden>
+                <p><span id="dateSpan5"></span></p>
+                <img src="#" id="day5Icon">
+                <p><span id="descriptionSpan5"></span></p>
+                <p>Max Temp <strong><span id="maxTemperatureSpan5"></span></strong></p>
+                <p>Min Temp <strong><span id="minTemperatureSpan5"></span></strong></p>
+            </div>
+            <div id="day6" hidden>
+                <p><span id="dateSpan6"></span></p>
+                <img src="#" id="day6Icon">
+                <p><span id="descriptionSpan6"></span></p>
+                <p>Max Temp <strong><span id="maxTemperatureSpan6"></span></strong></p>
+                <p>Min Temp <strong><span id="minTemperatureSpan6"></span></strong></p>
+            </div>
+            <div id="day7" hidden>
+                <p><span id="dateSpan7"></span></p>
+                <img src="#" id="day7Icon">
+                <p><span id="descriptionSpan7"></span></p>
+                <p>Max Temp <strong><span id="maxTemperatureSpan7"></span></strong></p>
+                <p>Min Temp <strong><span id="minTemperatureSpan7"></span></strong></p>
+            </div>
+        </section>
+        <script src="weatherForecast.js"></script>
+    </div>
+</body>
+
+</html>
