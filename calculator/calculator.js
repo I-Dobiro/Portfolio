@@ -1,33 +1,47 @@
-const operand1Input = document.getElementById("operand1Input")
-const operatorSelect = document.getElementById("operatorSelect")
-const operand2Input = document.getElementById("operand2Input")
-const resultInput = document.getElementById("resultInput")
+//Get references to the input elements from the DOM
+const operand1Input = document.getElementById("operand1Input");  // First number input
+const operatorSelect = document.getElementById("operatorSelect");  // Operator dropdown (+, -, *, /)
+const operand2Input = document.getElementById("operand2Input");  // Second number input
+const resultInput = document.getElementById("resultInput");  // Output field for the result
 
+// Function to calculate and update the result input whenever a value changes
 function updateResultInput() {
-    const operand1 = parseFloat(operand1Input.value)
-    const operator = operatorSelect.value
-    const operand2 = parseFloat(operand2Input.value)
-    let result
+    // Convert the first input value to a floating-point number
+    const operand1 = parseFloat(operand1Input.value);
 
+    // Get the selected operator as a string ("+", "-", "*", or "/")
+    const operator = operatorSelect.value;
+
+    // Convert the second input value to a floating-point number
+    const operand2 = parseFloat(operand2Input.value);
+
+    // Initialize result variable
+    let result;
+
+    // Perform the operation based on the selected operator
     if (operator === "+") {
-        result = operand1 + operand2
+        result = operand1 + operand2;
     } else if (operator === "-") {
-        result = operand1 - operand2
+        result = operand1 - operand2;
     } else if (operator === "*") {
-        result = operand1 * operand2
+        result = operand1 * operand2;
     } else if (operator === "/") {
-        result = operand1 / operand2
+        result = operand1 / operand2;
     } else {
-        result = NaN
+        // If the operator is not recognized, result is set to NaN
+        result = NaN;
     }
 
+    // Only display the result if it's a valid number
     if (!isNaN(result)) {
-        resultInput.value = result
+        resultInput.value = result;
     } else {
-        resultInput.value = ""
+        // Otherwise, clear the result field
+        resultInput.value = "";
     }
 }
 
-operand1Input.addEventListener("input", updateResultInput)
-operatorSelect.addEventListener("change", updateResultInput)
-operand2Input.addEventListener("input", updateResultInput)
+// Add event listeners to update the result in real time as inputs change
+operand1Input.addEventListener("input", updateResultInput);  // When the first operand changes
+operatorSelect.addEventListener("change", updateResultInput);  // When the operator is changed
+operand2Input.addEventListener("input", updateResultInput);  // When the second operand changes
