@@ -204,413 +204,412 @@ async function showWeather() {
     }
 }
 
-    if (descriptionSpan.textContent === 'Clear sky') {
-        currentWeatherIcon.src = './weatherIcons/sunny-clear.png'
-    } else if (descriptionSpan.textContent === 'Mainly clear') {
-        currentWeatherIcon.src = './weatherIcons/partly-cloudy.png'
-    } else if (descriptionSpan.textContent === 'Partly cloudy') {
-        currentWeatherIcon.src = './weatherIcons/partly-cloudy.png'
-    } else if (descriptionSpan.textContent === 'Overcast') {
-        currentWeatherIcon.src = './weatherIcons/overcast.png'
-    } else if (descriptionSpan.textContent === 'Fog') {
-        currentWeatherIcon.src = './weatherIcons/foggy.png'
-    } else if (descriptionSpan.textContent === 'Depositing rime fog') {
-        currentWeatherIcon.src = './weatherIcons/foggy.png'
-    } else if (descriptionSpan.textContent === 'Light drizzle') {
-        currentWeatherIcon.src = './weatherIcons/drizzle.png'
-    } else if (descriptionSpan.textContent === 'Moderate drizzle') {
-        currentWeatherIcon.src = './weatherIcons/drizzle.png'
-    } else if (descriptionSpan.textContent === 'Dense drizzle') {
-        currentWeatherIcon.src = './weatherIcons/drizzle.png'
-    } else if (descriptionSpan.textContent === 'Light freezing drizzle') {
-        currentWeatherIcon.src = './weatherIcons/drizzle.png'
-    } else if (descriptionSpan.textContent === 'Dense freezing drizzle') {
-        currentWeatherIcon.src = './weatherIcons/drizzle.png'
-    } else if (descriptionSpan.textContent === 'Light rain') {
-        currentWeatherIcon.src = './weatherIcons/drizzle.png'
-    } else if (descriptionSpan.textContent === 'Light freezing rain') {
-        currentWeatherIcon.src = './weatherIcons/drizzle.png'
-    } else if (descriptionSpan.textContent === 'Slight rain showers') {
-        currentWeatherIcon.src = './weatherIcons/drizzle.png'
-    } else if (descriptionSpan.textContent === 'Moderate rain') {
-        currentWeatherIcon.src = './weatherIcons/rain.png'
-    } else if (descriptionSpan.textContent === 'Moderate rain showers') {
-        currentWeatherIcon.src = './weatherIcons/rain.png'
-    } else if (descriptionSpan.textContent === 'Heavy rain') {
-        currentWeatherIcon.src = './weatherIcons/sunny-sunny.png'
-    } else if (descriptionSpan.textContent === 'Violent rain showers') {
-        currentWeatherIcon.src = './weatherIcons/sunny-sunny.png'
-    } else if (descriptionSpan.textContent === 'Heavy freezing rain') {
-        currentWeatherIcon.src = './weatherIcons/sunny-sunny.png'
-    } else if (descriptionSpan.textContent === 'Slight snow fall') {
-        currentWeatherIcon.src = './weatherIcons/snow.png'
-    } else if (descriptionSpan.textContent === 'Snow grains') {
-        currentWeatherIcon.src = './weatherIcons/snow.png'
-    } else if (descriptionSpan.textContent === 'Slight snow showers') {
-        currentWeatherIcon.src = './weatherIcons/snow.png'
-    } else if (descriptionSpan.textContent === 'Heavy snow showers') {
-        currentWeatherIcon.src = './weatherIcons/heavy-snow.png'
-    } else if (descriptionSpan.textContent === 'Moderate snow fall') {
-        currentWeatherIcon.src = './weatherIcons/heavy-snow.png'
-    } else if (descriptionSpan.textContent === 'Heavy snow fall') {
-        currentWeatherIcon.src = './weatherIcons/heavy-snow.png'
-    } else if (descriptionSpan.textContent === 'Thunderstorms') {
-        currentWeatherIcon.src = './weatherIcons/thunder.png'
-    } else if (descriptionSpan.textContent === 'Thunderstorms with slight hail') {
-        currentWeatherIcon.src = './weatherIcons/thunder.png'
-    } else if (descriptionSpan.textContent === 'Thunderstorms with heavy hail') {
-        currentWeatherIcon.src = './weatherIcons/thunder.png'
-    };
+if (descriptionSpan.textContent === 'Clear sky') {
+    currentWeatherIcon.src = './weatherIcons/sunny-clear.png'
+} else if (descriptionSpan.textContent === 'Mainly clear') {
+    currentWeatherIcon.src = './weatherIcons/partly-cloudy.png'
+} else if (descriptionSpan.textContent === 'Partly cloudy') {
+    currentWeatherIcon.src = './weatherIcons/partly-cloudy.png'
+} else if (descriptionSpan.textContent === 'Overcast') {
+    currentWeatherIcon.src = './weatherIcons/overcast.png'
+} else if (descriptionSpan.textContent === 'Fog') {
+    currentWeatherIcon.src = './weatherIcons/foggy.png'
+} else if (descriptionSpan.textContent === 'Depositing rime fog') {
+    currentWeatherIcon.src = './weatherIcons/foggy.png'
+} else if (descriptionSpan.textContent === 'Light drizzle') {
+    currentWeatherIcon.src = './weatherIcons/drizzle.png'
+} else if (descriptionSpan.textContent === 'Moderate drizzle') {
+    currentWeatherIcon.src = './weatherIcons/drizzle.png'
+} else if (descriptionSpan.textContent === 'Dense drizzle') {
+    currentWeatherIcon.src = './weatherIcons/drizzle.png'
+} else if (descriptionSpan.textContent === 'Light freezing drizzle') {
+    currentWeatherIcon.src = './weatherIcons/drizzle.png'
+} else if (descriptionSpan.textContent === 'Dense freezing drizzle') {
+    currentWeatherIcon.src = './weatherIcons/drizzle.png'
+} else if (descriptionSpan.textContent === 'Light rain') {
+    currentWeatherIcon.src = './weatherIcons/drizzle.png'
+} else if (descriptionSpan.textContent === 'Light freezing rain') {
+    currentWeatherIcon.src = './weatherIcons/drizzle.png'
+} else if (descriptionSpan.textContent === 'Slight rain showers') {
+    currentWeatherIcon.src = './weatherIcons/drizzle.png'
+} else if (descriptionSpan.textContent === 'Moderate rain') {
+    currentWeatherIcon.src = './weatherIcons/rain.png'
+} else if (descriptionSpan.textContent === 'Moderate rain showers') {
+    currentWeatherIcon.src = './weatherIcons/rain.png'
+} else if (descriptionSpan.textContent === 'Heavy rain') {
+    currentWeatherIcon.src = './weatherIcons/sunny-sunny.png'
+} else if (descriptionSpan.textContent === 'Violent rain showers') {
+    currentWeatherIcon.src = './weatherIcons/sunny-sunny.png'
+} else if (descriptionSpan.textContent === 'Heavy freezing rain') {
+    currentWeatherIcon.src = './weatherIcons/sunny-sunny.png'
+} else if (descriptionSpan.textContent === 'Slight snow fall') {
+    currentWeatherIcon.src = './weatherIcons/snow.png'
+} else if (descriptionSpan.textContent === 'Snow grains') {
+    currentWeatherIcon.src = './weatherIcons/snow.png'
+} else if (descriptionSpan.textContent === 'Slight snow showers') {
+    currentWeatherIcon.src = './weatherIcons/snow.png'
+} else if (descriptionSpan.textContent === 'Heavy snow showers') {
+    currentWeatherIcon.src = './weatherIcons/heavy-snow.png'
+} else if (descriptionSpan.textContent === 'Moderate snow fall') {
+    currentWeatherIcon.src = './weatherIcons/heavy-snow.png'
+} else if (descriptionSpan.textContent === 'Heavy snow fall') {
+    currentWeatherIcon.src = './weatherIcons/heavy-snow.png'
+} else if (descriptionSpan.textContent === 'Thunderstorms') {
+    currentWeatherIcon.src = './weatherIcons/thunder.png'
+} else if (descriptionSpan.textContent === 'Thunderstorms with slight hail') {
+    currentWeatherIcon.src = './weatherIcons/thunder.png'
+} else if (descriptionSpan.textContent === 'Thunderstorms with heavy hail') {
+    currentWeatherIcon.src = './weatherIcons/thunder.png'
+};
 
-    if (descriptionSpan2.textContent === 'Clear sky') {
-        day2Icon.src = './weatherIcons/sunny-clear.png'
-    } else if (descriptionSpan2.textContent === 'Mainly clear') {
-        day2Icon.src = './weatherIcons/partly-cloudy.png'
-    } else if (descriptionSpan2.textContent === 'Partly cloudy') {
-        day2Icon.src = './weatherIcons/partly-cloudy.png'
-    } else if (descriptionSpan2.textContent === 'Overcast') {
-        day2Icon.src = './weatherIcons/overcast.png'
-    } else if (descriptionSpan2.textContent === 'Fog') {
-        day2Icon.src = './weatherIcons/foggy.png'
-    } else if (descriptionSpan2.textContent === 'Depositing rime fog') {
-        day2Icon.src = './weatherIcons/foggy.png'
-    } else if (descriptionSpan2.textContent === 'Light drizzle') {
-        day2Icon.src = './weatherIcons/drizzle.png'
-    } else if (descriptionSpan2.textContent === 'Moderate drizzle') {
-        day2Icon.src = './weatherIcons/drizzle.png'
-    } else if (descriptionSpan2.textContent === 'Dense drizzle') {
-        day2Icon.src = './weatherIcons/drizzle.png'
-    } else if (descriptionSpan2.textContent === 'Light freezing drizzle') {
-        day2Icon.src = './weatherIcons/drizzle.png'
-    } else if (descriptionSpan2.textContent === 'Dense freezing drizzle') {
-        day2Icon.src = './weatherIcons/drizzle.png'
-    } else if (descriptionSpan2.textContent === 'Light rain') {
-        day2Icon.src = './weatherIcons/drizzle.png'
-    } else if (descriptionSpan2.textContent === 'Light freezing rain') {
-        day2Icon.src = './weatherIcons/drizzle.png'
-    } else if (descriptionSpan2.textContent === 'Slight rain showers') {
-        day2Icon.src = './weatherIcons/drizzle.png'
-    } else if (descriptionSpan2.textContent === 'Moderate rain') {
-        day2Icon.src = './weatherIcons/rain.png'
-    } else if (descriptionSpan2.textContent === 'Moderate rain showers') {
-        day2Icon.src = './weatherIcons/rain.png'
-    } else if (descriptionSpan2.textContent === 'Heavy rain') {
-        day2Icon.src = './weatherIcons/sunny-sunny.png'
-    } else if (descriptionSpan2.textContent === 'Violent rain showers') {
-        day2Icon.src = './weatherIcons/sunny-sunny.png'
-    } else if (descriptionSpan2.textContent === 'Heavy freezing rain') {
-        day2Icon.src = './weatherIcons/sunny-sunny.png'
-    } else if (descriptionSpan2.textContent === 'Slight snow fall') {
-        day2Icon.src = './weatherIcons/snow.png'
-    } else if (descriptionSpan2.textContent === 'Snow grains') {
-        day2Icon.src = './weatherIcons/snow.png'
-    } else if (descriptionSpan2.textContent === 'Slight snow showers') {
-        day2Icon.src = './weatherIcons/snow.png'
-    } else if (descriptionSpan2.textContent === 'Heavy snow showers') {
-        day2Icon.src = './weatherIcons/heavy-snow.png'
-    } else if (descriptionSpan2.textContent === 'Moderate snow fall') {
-        day2Icon.src = './weatherIcons/heavy-snow.png'
-    } else if (descriptionSpan2.textContent === 'Heavy snow fall') {
-        day2Icon.src = './weatherIcons/heavy-snow.png'
-    } else if (descriptionSpan2.textContent === 'Thunderstorm') {
-        day2Icon.src = './weatherIcons/thunder.png'
-    } else if (descriptionSpan2.textContent === 'Thunderstorm with slight hail') {
-        day2Icon.src = './weatherIcons/thunder.png'
-    } else if (descriptionSpan2.textContent === 'Thunderstorm with heavy hail') {
-        day2Icon.src = './weatherIcons/thunder.png'
-    };
+if (descriptionSpan2.textContent === 'Clear sky') {
+    day2Icon.src = './weatherIcons/sunny-clear.png'
+} else if (descriptionSpan2.textContent === 'Mainly clear') {
+    day2Icon.src = './weatherIcons/partly-cloudy.png'
+} else if (descriptionSpan2.textContent === 'Partly cloudy') {
+    day2Icon.src = './weatherIcons/partly-cloudy.png'
+} else if (descriptionSpan2.textContent === 'Overcast') {
+    day2Icon.src = './weatherIcons/overcast.png'
+} else if (descriptionSpan2.textContent === 'Fog') {
+    day2Icon.src = './weatherIcons/foggy.png'
+} else if (descriptionSpan2.textContent === 'Depositing rime fog') {
+    day2Icon.src = './weatherIcons/foggy.png'
+} else if (descriptionSpan2.textContent === 'Light drizzle') {
+    day2Icon.src = './weatherIcons/drizzle.png'
+} else if (descriptionSpan2.textContent === 'Moderate drizzle') {
+    day2Icon.src = './weatherIcons/drizzle.png'
+} else if (descriptionSpan2.textContent === 'Dense drizzle') {
+    day2Icon.src = './weatherIcons/drizzle.png'
+} else if (descriptionSpan2.textContent === 'Light freezing drizzle') {
+    day2Icon.src = './weatherIcons/drizzle.png'
+} else if (descriptionSpan2.textContent === 'Dense freezing drizzle') {
+    day2Icon.src = './weatherIcons/drizzle.png'
+} else if (descriptionSpan2.textContent === 'Light rain') {
+    day2Icon.src = './weatherIcons/drizzle.png'
+} else if (descriptionSpan2.textContent === 'Light freezing rain') {
+    day2Icon.src = './weatherIcons/drizzle.png'
+} else if (descriptionSpan2.textContent === 'Slight rain showers') {
+    day2Icon.src = './weatherIcons/drizzle.png'
+} else if (descriptionSpan2.textContent === 'Moderate rain') {
+    day2Icon.src = './weatherIcons/rain.png'
+} else if (descriptionSpan2.textContent === 'Moderate rain showers') {
+    day2Icon.src = './weatherIcons/rain.png'
+} else if (descriptionSpan2.textContent === 'Heavy rain') {
+    day2Icon.src = './weatherIcons/sunny-sunny.png'
+} else if (descriptionSpan2.textContent === 'Violent rain showers') {
+    day2Icon.src = './weatherIcons/sunny-sunny.png'
+} else if (descriptionSpan2.textContent === 'Heavy freezing rain') {
+    day2Icon.src = './weatherIcons/sunny-sunny.png'
+} else if (descriptionSpan2.textContent === 'Slight snow fall') {
+    day2Icon.src = './weatherIcons/snow.png'
+} else if (descriptionSpan2.textContent === 'Snow grains') {
+    day2Icon.src = './weatherIcons/snow.png'
+} else if (descriptionSpan2.textContent === 'Slight snow showers') {
+    day2Icon.src = './weatherIcons/snow.png'
+} else if (descriptionSpan2.textContent === 'Heavy snow showers') {
+    day2Icon.src = './weatherIcons/heavy-snow.png'
+} else if (descriptionSpan2.textContent === 'Moderate snow fall') {
+    day2Icon.src = './weatherIcons/heavy-snow.png'
+} else if (descriptionSpan2.textContent === 'Heavy snow fall') {
+    day2Icon.src = './weatherIcons/heavy-snow.png'
+} else if (descriptionSpan2.textContent === 'Thunderstorm') {
+    day2Icon.src = './weatherIcons/thunder.png'
+} else if (descriptionSpan2.textContent === 'Thunderstorm with slight hail') {
+    day2Icon.src = './weatherIcons/thunder.png'
+} else if (descriptionSpan2.textContent === 'Thunderstorm with heavy hail') {
+    day2Icon.src = './weatherIcons/thunder.png'
+};
 
-    if (descriptionSpan3.textContent === 'Clear sky') {
-        day3Icon.src = './weatherIcons/sunny-clear.png'
-    } else if (descriptionSpan3.textContent === 'Mainly clear') {
-        day3Icon.src = './weatherIcons/partly-cloudy.png'
-    } else if (descriptionSpan3.textContent === 'Partly cloudy') {
-        day3Icon.src = './weatherIcons/partly-cloudy.png'
-    } else if (descriptionSpan3.textContent === 'Overcast') {
-        day3Icon.src = './weatherIcons/overcast.png'
-    } else if (descriptionSpan3.textContent === 'Fog') {
-        day3Icon.src = './weatherIcons/foggy.png'
-    } else if (descriptionSpan3.textContent === 'Depositing rime fog') {
-        day3Icon.src = './weatherIcons/foggy.png'
-    } else if (descriptionSpan3.textContent === 'Light drizzle') {
-        day3Icon.src = './weatherIcons/drizzle.png'
-    } else if (descriptionSpan3.textContent === 'Moderate drizzle') {
-        day3Icon.src = './weatherIcons/drizzle.png'
-    } else if (descriptionSpan3.textContent === 'Dense drizzle') {
-        day3Icon.src = './weatherIcons/drizzle.png'
-    } else if (descriptionSpan3.textContent === 'Light freezing drizzle') {
-        day3Icon.src = './weatherIcons/drizzle.png'
-    } else if (descriptionSpan3.textContent === 'Dense freezing drizzle') {
-        day3Icon.src = './weatherIcons/drizzle.png'
-    } else if (descriptionSpan3.textContent === 'Light rain') {
-        day3Icon.src = './weatherIcons/drizzle.png'
-    } else if (descriptionSpan3.textContent === 'Light freezing rain') {
-        day3Icon.src = './weatherIcons/drizzle.png'
-    } else if (descriptionSpan3.textContent === 'Slight rain showers') {
-        day3Icon.src = './weatherIcons/drizzle.png'
-    } else if (descriptionSpan3.textContent === 'Moderate rain') {
-        day3Icon.src = './weatherIcons/rain.png'
-    } else if (descriptionSpan3.textContent === 'Moderate rain showers') {
-        day3Icon.src = './weatherIcons/rain.png'
-    } else if (descriptionSpan3.textContent === 'Heavy rain') {
-        day3Icon.src = './weatherIcons/sunny-sunny.png'
-    } else if (descriptionSpan3.textContent === 'Violent rain showers') {
-        day3Icon.src = './weatherIcons/sunny-sunny.png'
-    } else if (descriptionSpan3.textContent === 'Heavy freezing rain') {
-        day3Icon.src = './weatherIcons/sunny-sunny.png'
-    } else if (descriptionSpan3.textContent === 'Slight snow fall') {
-        day3Icon.src = './weatherIcons/snow.png'
-    } else if (descriptionSpan3.textContent === 'Snow grains') {
-        day3Icon.src = './weatherIcons/snow.png'
-    } else if (descriptionSpan3.textContent === 'Slight snow showers') {
-        day3Icon.src = './weatherIcons/snow.png'
-    } else if (descriptionSpan3.textContent === 'Heavy snow showers') {
-        day3Icon.src = './weatherIcons/heavy-snow.png'
-    } else if (descriptionSpan3.textContent === 'Moderate snow fall') {
-        day3Icon.src = './weatherIcons/heavy-snow.png'
-    } else if (descriptionSpan3.textContent === 'Heavy snow fall') {
-        day3Icon.src = './weatherIcons/heavy-snow.png'
-    } else if (descriptionSpan3.textContent === 'Thunderstorm') {
-        day3Icon.src = './weatherIcons/thunder.png'
-    } else if (descriptionSpan3.textContent === 'Thunderstorm with slight hail') {
-        day3Icon.src = './weatherIcons/thunder.png'
-    } else if (descriptionSpan3.textContent === 'Thunderstorm with heavy hail') {
-        day3Icon.src = './weatherIcons/thunder.png'
-    };
+if (descriptionSpan3.textContent === 'Clear sky') {
+    day3Icon.src = './weatherIcons/sunny-clear.png'
+} else if (descriptionSpan3.textContent === 'Mainly clear') {
+    day3Icon.src = './weatherIcons/partly-cloudy.png'
+} else if (descriptionSpan3.textContent === 'Partly cloudy') {
+    day3Icon.src = './weatherIcons/partly-cloudy.png'
+} else if (descriptionSpan3.textContent === 'Overcast') {
+    day3Icon.src = './weatherIcons/overcast.png'
+} else if (descriptionSpan3.textContent === 'Fog') {
+    day3Icon.src = './weatherIcons/foggy.png'
+} else if (descriptionSpan3.textContent === 'Depositing rime fog') {
+    day3Icon.src = './weatherIcons/foggy.png'
+} else if (descriptionSpan3.textContent === 'Light drizzle') {
+    day3Icon.src = './weatherIcons/drizzle.png'
+} else if (descriptionSpan3.textContent === 'Moderate drizzle') {
+    day3Icon.src = './weatherIcons/drizzle.png'
+} else if (descriptionSpan3.textContent === 'Dense drizzle') {
+    day3Icon.src = './weatherIcons/drizzle.png'
+} else if (descriptionSpan3.textContent === 'Light freezing drizzle') {
+    day3Icon.src = './weatherIcons/drizzle.png'
+} else if (descriptionSpan3.textContent === 'Dense freezing drizzle') {
+    day3Icon.src = './weatherIcons/drizzle.png'
+} else if (descriptionSpan3.textContent === 'Light rain') {
+    day3Icon.src = './weatherIcons/drizzle.png'
+} else if (descriptionSpan3.textContent === 'Light freezing rain') {
+    day3Icon.src = './weatherIcons/drizzle.png'
+} else if (descriptionSpan3.textContent === 'Slight rain showers') {
+    day3Icon.src = './weatherIcons/drizzle.png'
+} else if (descriptionSpan3.textContent === 'Moderate rain') {
+    day3Icon.src = './weatherIcons/rain.png'
+} else if (descriptionSpan3.textContent === 'Moderate rain showers') {
+    day3Icon.src = './weatherIcons/rain.png'
+} else if (descriptionSpan3.textContent === 'Heavy rain') {
+    day3Icon.src = './weatherIcons/sunny-sunny.png'
+} else if (descriptionSpan3.textContent === 'Violent rain showers') {
+    day3Icon.src = './weatherIcons/sunny-sunny.png'
+} else if (descriptionSpan3.textContent === 'Heavy freezing rain') {
+    day3Icon.src = './weatherIcons/sunny-sunny.png'
+} else if (descriptionSpan3.textContent === 'Slight snow fall') {
+    day3Icon.src = './weatherIcons/snow.png'
+} else if (descriptionSpan3.textContent === 'Snow grains') {
+    day3Icon.src = './weatherIcons/snow.png'
+} else if (descriptionSpan3.textContent === 'Slight snow showers') {
+    day3Icon.src = './weatherIcons/snow.png'
+} else if (descriptionSpan3.textContent === 'Heavy snow showers') {
+    day3Icon.src = './weatherIcons/heavy-snow.png'
+} else if (descriptionSpan3.textContent === 'Moderate snow fall') {
+    day3Icon.src = './weatherIcons/heavy-snow.png'
+} else if (descriptionSpan3.textContent === 'Heavy snow fall') {
+    day3Icon.src = './weatherIcons/heavy-snow.png'
+} else if (descriptionSpan3.textContent === 'Thunderstorm') {
+    day3Icon.src = './weatherIcons/thunder.png'
+} else if (descriptionSpan3.textContent === 'Thunderstorm with slight hail') {
+    day3Icon.src = './weatherIcons/thunder.png'
+} else if (descriptionSpan3.textContent === 'Thunderstorm with heavy hail') {
+    day3Icon.src = './weatherIcons/thunder.png'
+};
 
-    if (descriptionSpan4.textContent === 'Clear sky') {
-        day4Icon.src = './weatherIcons/sunny-clear.png'
-    } else if (descriptionSpan4.textContent === 'Mainly clear') {
-        day4Icon.src = './weatherIcons/partly-cloudy.png'
-    } else if (descriptionSpan4.textContent === 'Partly cloudy') {
-        day4Icon.src = './weatherIcons/partly-cloudy.png'
-    } else if (descriptionSpan4.textContent === 'Overcast') {
-        day4Icon.src = './weatherIcons/overcast.png'
-    } else if (descriptionSpan4.textContent === 'Fog') {
-        day4Icon.src = './weatherIcons/foggy.png'
-    } else if (descriptionSpan4.textContent === 'Depositing rime fog') {
-        day4Icon.src = './weatherIcons/foggy.png'
-    } else if (descriptionSpan4.textContent === 'Light drizzle') {
-        day4Icon.src = './weatherIcons/drizzle.png'
-    } else if (descriptionSpan4.textContent === 'Moderate drizzle') {
-        day4Icon.src = './weatherIcons/drizzle.png'
-    } else if (descriptionSpan4.textContent === 'Dense drizzle') {
-        day4Icon.src = './weatherIcons/drizzle.png'
-    } else if (descriptionSpan4.textContent === 'Light freezing drizzle') {
-        day4Icon.src = './weatherIcons/drizzle.png'
-    } else if (descriptionSpan4.textContent === 'Dense freezing drizzle') {
-        day4Icon.src = './weatherIcons/drizzle.png'
-    } else if (descriptionSpan4.textContent === 'Light rain') {
-        day4Icon.src = './weatherIcons/drizzle.png'
-    } else if (descriptionSpan4.textContent === 'Light freezing rain') {
-        day4Icon.src = './weatherIcons/drizzle.png'
-    } else if (descriptionSpan4.textContent === 'Slight rain showers') {
-        day4Icon.src = './weatherIcons/drizzle.png'
-    } else if (descriptionSpan4.textContent === 'Moderate rain') {
-        day4Icon.src = './weatherIcons/rain.png'
-    } else if (descriptionSpan4.textContent === 'Moderate rain showers') {
-        day4Icon.src = './weatherIcons/rain.png'
-    } else if (descriptionSpan4.textContent === 'Heavy rain') {
-        day4Icon.src = './weatherIcons/sunny-sunny.png'
-    } else if (descriptionSpan4.textContent === 'Violent rain showers') {
-        day4Icon.src = './weatherIcons/sunny-sunny.png'
-    } else if (descriptionSpan4.textContent === 'Heavy freezing rain') {
-        day4Icon.src = './weatherIcons/sunny-sunny.png'
-    } else if (descriptionSpan4.textContent === 'Slight snow fall') {
-        day4Icon.src = './weatherIcons/snow.png'
-    } else if (descriptionSpan4.textContent === 'Snow grains') {
-        day4Icon.src = './weatherIcons/snow.png'
-    } else if (descriptionSpan4.textContent === 'Slight snow showers') {
-        day4Icon.src = './weatherIcons/snow.png'
-    } else if (descriptionSpan4.textContent === 'Heavy snow showers') {
-        day4Icon.src = './weatherIcons/heavy-snow.png'
-    } else if (descriptionSpan4.textContent === 'Moderate snow fall') {
-        day4Icon.src = './weatherIcons/heavy-snow.png'
-    } else if (descriptionSpan4.textContent === 'Heavy snow fall') {
-        day4Icon.src = './weatherIcons/heavy-snow.png'
-    } else if (descriptionSpan4.textContent === 'Thunderstorm') {
-        day4Icon.src = './weatherIcons/thunder.png'
-    } else if (descriptionSpan4.textContent === 'Thunderstorm with slight hail') {
-        day4Icon.src = './weatherIcons/thunder.png'
-    } else if (descriptionSpan4.textContent === 'Thunderstorm with heavy hail') {
-        day4Icon.src = './weatherIcons/thunder.png'
-    };
+if (descriptionSpan4.textContent === 'Clear sky') {
+    day4Icon.src = './weatherIcons/sunny-clear.png'
+} else if (descriptionSpan4.textContent === 'Mainly clear') {
+    day4Icon.src = './weatherIcons/partly-cloudy.png'
+} else if (descriptionSpan4.textContent === 'Partly cloudy') {
+    day4Icon.src = './weatherIcons/partly-cloudy.png'
+} else if (descriptionSpan4.textContent === 'Overcast') {
+    day4Icon.src = './weatherIcons/overcast.png'
+} else if (descriptionSpan4.textContent === 'Fog') {
+    day4Icon.src = './weatherIcons/foggy.png'
+} else if (descriptionSpan4.textContent === 'Depositing rime fog') {
+    day4Icon.src = './weatherIcons/foggy.png'
+} else if (descriptionSpan4.textContent === 'Light drizzle') {
+    day4Icon.src = './weatherIcons/drizzle.png'
+} else if (descriptionSpan4.textContent === 'Moderate drizzle') {
+    day4Icon.src = './weatherIcons/drizzle.png'
+} else if (descriptionSpan4.textContent === 'Dense drizzle') {
+    day4Icon.src = './weatherIcons/drizzle.png'
+} else if (descriptionSpan4.textContent === 'Light freezing drizzle') {
+    day4Icon.src = './weatherIcons/drizzle.png'
+} else if (descriptionSpan4.textContent === 'Dense freezing drizzle') {
+    day4Icon.src = './weatherIcons/drizzle.png'
+} else if (descriptionSpan4.textContent === 'Light rain') {
+    day4Icon.src = './weatherIcons/drizzle.png'
+} else if (descriptionSpan4.textContent === 'Light freezing rain') {
+    day4Icon.src = './weatherIcons/drizzle.png'
+} else if (descriptionSpan4.textContent === 'Slight rain showers') {
+    day4Icon.src = './weatherIcons/drizzle.png'
+} else if (descriptionSpan4.textContent === 'Moderate rain') {
+    day4Icon.src = './weatherIcons/rain.png'
+} else if (descriptionSpan4.textContent === 'Moderate rain showers') {
+    day4Icon.src = './weatherIcons/rain.png'
+} else if (descriptionSpan4.textContent === 'Heavy rain') {
+    day4Icon.src = './weatherIcons/sunny-sunny.png'
+} else if (descriptionSpan4.textContent === 'Violent rain showers') {
+    day4Icon.src = './weatherIcons/sunny-sunny.png'
+} else if (descriptionSpan4.textContent === 'Heavy freezing rain') {
+    day4Icon.src = './weatherIcons/sunny-sunny.png'
+} else if (descriptionSpan4.textContent === 'Slight snow fall') {
+    day4Icon.src = './weatherIcons/snow.png'
+} else if (descriptionSpan4.textContent === 'Snow grains') {
+    day4Icon.src = './weatherIcons/snow.png'
+} else if (descriptionSpan4.textContent === 'Slight snow showers') {
+    day4Icon.src = './weatherIcons/snow.png'
+} else if (descriptionSpan4.textContent === 'Heavy snow showers') {
+    day4Icon.src = './weatherIcons/heavy-snow.png'
+} else if (descriptionSpan4.textContent === 'Moderate snow fall') {
+    day4Icon.src = './weatherIcons/heavy-snow.png'
+} else if (descriptionSpan4.textContent === 'Heavy snow fall') {
+    day4Icon.src = './weatherIcons/heavy-snow.png'
+} else if (descriptionSpan4.textContent === 'Thunderstorm') {
+    day4Icon.src = './weatherIcons/thunder.png'
+} else if (descriptionSpan4.textContent === 'Thunderstorm with slight hail') {
+    day4Icon.src = './weatherIcons/thunder.png'
+} else if (descriptionSpan4.textContent === 'Thunderstorm with heavy hail') {
+    day4Icon.src = './weatherIcons/thunder.png'
+};
 
-    if (descriptionSpan5.textContent === 'Clear sky') {
-        day5Icon.src = './weatherIcons/sunny-clear.png'
-    } else if (descriptionSpan5.textContent === 'Mainly clear') {
-        day5Icon.src = './weatherIcons/partly-cloudy.png'
-    } else if (descriptionSpan5.textContent === 'Partly cloudy') {
-        day5Icon.src = './weatherIcons/partly-cloudy.png'
-    } else if (descriptionSpan5.textContent === 'Overcast') {
-        day5Icon.src = './weatherIcons/overcast.png'
-    } else if (descriptionSpan5.textContent === 'Fog') {
-        day5Icon.src = './weatherIcons/foggy.png'
-    } else if (descriptionSpan5.textContent === 'Depositing rime fog') {
-        day5Icon.src = './weatherIcons/foggy.png'
-    } else if (descriptionSpan5.textContent === 'Light drizzle') {
-        day5Icon.src = './weatherIcons/drizzle.png'
-    } else if (descriptionSpan5.textContent === 'Moderate drizzle') {
-        day5Icon.src = './weatherIcons/drizzle.png'
-    } else if (descriptionSpan5.textContent === 'Dense drizzle') {
-        day5Icon.src = './weatherIcons/drizzle.png'
-    } else if (descriptionSpan5.textContent === 'Light freezing drizzle') {
-        day5Icon.src = './weatherIcons/drizzle.png'
-    } else if (descriptionSpan5.textContent === 'Dense freezing drizzle') {
-        day5Icon.src = './weatherIcons/drizzle.png'
-    } else if (descriptionSpan5.textContent === 'Light rain') {
-        day5Icon.src = './weatherIcons/drizzle.png'
-    } else if (descriptionSpan5.textContent === 'Light freezing rain') {
-        day5Icon.src = './weatherIcons/drizzle.png'
-    } else if (descriptionSpan5.textContent === 'Slight rain showers') {
-        day5Icon.src = './weatherIcons/drizzle.png'
-    } else if (descriptionSpan5.textContent === 'Moderate rain') {
-        day5Icon.src = './weatherIcons/rain.png'
-    } else if (descriptionSpan5.textContent === 'Moderate rain showers') {
-        day5Icon.src = './weatherIcons/rain.png'
-    } else if (descriptionSpan5.textContent === 'Heavy rain') {
-        day5Icon.src = './weatherIcons/sunny-sunny.png'
-    } else if (descriptionSpan5.textContent === 'Violent rain showers') {
-        day5Icon.src = './weatherIcons/sunny-sunny.png'
-    } else if (descriptionSpan5.textContent === 'Heavy freezing rain') {
-        day5Icon.src = './weatherIcons/sunny-sunny.png'
-    } else if (descriptionSpan5.textContent === 'Slight snow fall') {
-        day5Icon.src = './weatherIcons/snow.png'
-    } else if (descriptionSpan5.textContent === 'Snow grains') {
-        day5Icon.src = './weatherIcons/snow.png'
-    } else if (descriptionSpan5.textContent === 'Slight snow showers') {
-        day5Icon.src = './weatherIcons/snow.png'
-    } else if (descriptionSpan5.textContent === 'Heavy snow showers') {
-        day5Icon.src = './weatherIcons/heavy-snow.png'
-    } else if (descriptionSpan5.textContent === 'Moderate snow fall') {
-        day5Icon.src = './weatherIcons/heavy-snow.png'
-    } else if (descriptionSpan5.textContent === 'Heavy snow fall') {
-        day5Icon.src = './weatherIcons/heavy-snow.png'
-    } else if (descriptionSpan5.textContent === 'Thunderstorm') {
-        day5Icon.src = './weatherIcons/thunder.png'
-    } else if (descriptionSpan5.textContent === 'Thunderstorm with slight hail') {
-        day5Icon.src = './weatherIcons/thunder.png'
-    } else if (descriptionSpan5.textContent === 'Thunderstorm with heavy hail') {
-        day5Icon.src = './weatherIcons/thunder.png'
-    };
+if (descriptionSpan5.textContent === 'Clear sky') {
+    day5Icon.src = './weatherIcons/sunny-clear.png'
+} else if (descriptionSpan5.textContent === 'Mainly clear') {
+    day5Icon.src = './weatherIcons/partly-cloudy.png'
+} else if (descriptionSpan5.textContent === 'Partly cloudy') {
+    day5Icon.src = './weatherIcons/partly-cloudy.png'
+} else if (descriptionSpan5.textContent === 'Overcast') {
+    day5Icon.src = './weatherIcons/overcast.png'
+} else if (descriptionSpan5.textContent === 'Fog') {
+    day5Icon.src = './weatherIcons/foggy.png'
+} else if (descriptionSpan5.textContent === 'Depositing rime fog') {
+    day5Icon.src = './weatherIcons/foggy.png'
+} else if (descriptionSpan5.textContent === 'Light drizzle') {
+    day5Icon.src = './weatherIcons/drizzle.png'
+} else if (descriptionSpan5.textContent === 'Moderate drizzle') {
+    day5Icon.src = './weatherIcons/drizzle.png'
+} else if (descriptionSpan5.textContent === 'Dense drizzle') {
+    day5Icon.src = './weatherIcons/drizzle.png'
+} else if (descriptionSpan5.textContent === 'Light freezing drizzle') {
+    day5Icon.src = './weatherIcons/drizzle.png'
+} else if (descriptionSpan5.textContent === 'Dense freezing drizzle') {
+    day5Icon.src = './weatherIcons/drizzle.png'
+} else if (descriptionSpan5.textContent === 'Light rain') {
+    day5Icon.src = './weatherIcons/drizzle.png'
+} else if (descriptionSpan5.textContent === 'Light freezing rain') {
+    day5Icon.src = './weatherIcons/drizzle.png'
+} else if (descriptionSpan5.textContent === 'Slight rain showers') {
+    day5Icon.src = './weatherIcons/drizzle.png'
+} else if (descriptionSpan5.textContent === 'Moderate rain') {
+    day5Icon.src = './weatherIcons/rain.png'
+} else if (descriptionSpan5.textContent === 'Moderate rain showers') {
+    day5Icon.src = './weatherIcons/rain.png'
+} else if (descriptionSpan5.textContent === 'Heavy rain') {
+    day5Icon.src = './weatherIcons/sunny-sunny.png'
+} else if (descriptionSpan5.textContent === 'Violent rain showers') {
+    day5Icon.src = './weatherIcons/sunny-sunny.png'
+} else if (descriptionSpan5.textContent === 'Heavy freezing rain') {
+    day5Icon.src = './weatherIcons/sunny-sunny.png'
+} else if (descriptionSpan5.textContent === 'Slight snow fall') {
+    day5Icon.src = './weatherIcons/snow.png'
+} else if (descriptionSpan5.textContent === 'Snow grains') {
+    day5Icon.src = './weatherIcons/snow.png'
+} else if (descriptionSpan5.textContent === 'Slight snow showers') {
+    day5Icon.src = './weatherIcons/snow.png'
+} else if (descriptionSpan5.textContent === 'Heavy snow showers') {
+    day5Icon.src = './weatherIcons/heavy-snow.png'
+} else if (descriptionSpan5.textContent === 'Moderate snow fall') {
+    day5Icon.src = './weatherIcons/heavy-snow.png'
+} else if (descriptionSpan5.textContent === 'Heavy snow fall') {
+    day5Icon.src = './weatherIcons/heavy-snow.png'
+} else if (descriptionSpan5.textContent === 'Thunderstorm') {
+    day5Icon.src = './weatherIcons/thunder.png'
+} else if (descriptionSpan5.textContent === 'Thunderstorm with slight hail') {
+    day5Icon.src = './weatherIcons/thunder.png'
+} else if (descriptionSpan5.textContent === 'Thunderstorm with heavy hail') {
+    day5Icon.src = './weatherIcons/thunder.png'
+};
 
-    if (descriptionSpan6.textContent === 'Clear sky') {
-        day6Icon.src = './weatherIcons/sunny-clear.png'
-    } else if (descriptionSpan6.textContent === 'Mainly clear') {
-        day6Icon.src = './weatherIcons/partly-cloudy.png'
-    } else if (descriptionSpan6.textContent === 'Partly cloudy') {
-        day6Icon.src = './weatherIcons/partly-cloudy.png'
-    } else if (descriptionSpan6.textContent === 'Overcast') {
-        day6Icon.src = './weatherIcons/overcast.png'
-    } else if (descriptionSpan6.textContent === 'Fog') {
-        day6Icon.src = './weatherIcons/foggy.png'
-    } else if (descriptionSpan6.textContent === 'Depositing rime fog') {
-        day6Icon.src = './weatherIcons/foggy.png'
-    } else if (descriptionSpan6.textContent === 'Light drizzle') {
-        day6Icon.src = './weatherIcons/drizzle.png'
-    } else if (descriptionSpan6.textContent === 'Moderate drizzle') {
-        day6Icon.src = './weatherIcons/drizzle.png'
-    } else if (descriptionSpan6.textContent === 'Dense drizzle') {
-        day6Icon.src = './weatherIcons/drizzle.png'
-    } else if (descriptionSpan6.textContent === 'Light freezing drizzle') {
-        day6Icon.src = './weatherIcons/drizzle.png'
-    } else if (descriptionSpan6.textContent === 'Dense freezing drizzle') {
-        day6Icon.src = './weatherIcons/drizzle.png'
-    } else if (descriptionSpan6.textContent === 'Light rain') {
-        day6Icon.src = './weatherIcons/drizzle.png'
-    } else if (descriptionSpan6.textContent === 'Light freezing rain') {
-        day6Icon.src = './weatherIcons/drizzle.png'
-    } else if (descriptionSpan6.textContent === 'Slight rain showers') {
-        day6Icon.src = './weatherIcons/drizzle.png'
-    } else if (descriptionSpan6.textContent === 'Moderate rain') {
-        day6Icon.src = './weatherIcons/rain.png'
-    } else if (descriptionSpan6.textContent === 'Moderate rain showers') {
-        day6Icon.src = './weatherIcons/rain.png'
-    } else if (descriptionSpan6.textContent === 'Heavy rain') {
-        day6Icon.src = './weatherIcons/sunny-sunny.png'
-    } else if (descriptionSpan6.textContent === 'Violent rain showers') {
-        day6Icon.src = './weatherIcons/sunny-sunny.png'
-    } else if (descriptionSpan6.textContent === 'Heavy freezing rain') {
-        day6Icon.src = './weatherIcons/sunny-sunny.png'
-    } else if (descriptionSpan6.textContent === 'Slight snow fall') {
-        day6Icon.src = './weatherIcons/snow.png'
-    } else if (descriptionSpan6.textContent === 'Snow grains') {
-        day6Icon.src = './weatherIcons/snow.png'
-    } else if (descriptionSpan6.textContent === 'Slight snow showers') {
-        day6Icon.src = './weatherIcons/snow.png'
-    } else if (descriptionSpan6.textContent === 'Heavy snow showers') {
-        day6Icon.src = './weatherIcons/heavy-snow.png'
-    } else if (descriptionSpan6.textContent === 'Moderate snow fall') {
-        day6Icon.src = './weatherIcons/heavy-snow.png'
-    } else if (descriptionSpan6.textContent === 'Heavy snow fall') {
-        day6Icon.src = './weatherIcons/heavy-snow.png'
-    } else if (descriptionSpan6.textContent === 'Thunderstorm') {
-        day6Icon.src = './weatherIcons/thunder.png'
-    } else if (descriptionSpan6.textContent === 'Thunderstorm with slight hail') {
-        day6Icon.src = './weatherIcons/thunder.png'
-    } else if (descriptionSpan6.textContent === 'Thunderstorm with heavy hail') {
-        day6Icon.src = './weatherIcons/thunder.png'
-    };
+if (descriptionSpan6.textContent === 'Clear sky') {
+    day6Icon.src = './weatherIcons/sunny-clear.png'
+} else if (descriptionSpan6.textContent === 'Mainly clear') {
+    day6Icon.src = './weatherIcons/partly-cloudy.png'
+} else if (descriptionSpan6.textContent === 'Partly cloudy') {
+    day6Icon.src = './weatherIcons/partly-cloudy.png'
+} else if (descriptionSpan6.textContent === 'Overcast') {
+    day6Icon.src = './weatherIcons/overcast.png'
+} else if (descriptionSpan6.textContent === 'Fog') {
+    day6Icon.src = './weatherIcons/foggy.png'
+} else if (descriptionSpan6.textContent === 'Depositing rime fog') {
+    day6Icon.src = './weatherIcons/foggy.png'
+} else if (descriptionSpan6.textContent === 'Light drizzle') {
+    day6Icon.src = './weatherIcons/drizzle.png'
+} else if (descriptionSpan6.textContent === 'Moderate drizzle') {
+    day6Icon.src = './weatherIcons/drizzle.png'
+} else if (descriptionSpan6.textContent === 'Dense drizzle') {
+    day6Icon.src = './weatherIcons/drizzle.png'
+} else if (descriptionSpan6.textContent === 'Light freezing drizzle') {
+    day6Icon.src = './weatherIcons/drizzle.png'
+} else if (descriptionSpan6.textContent === 'Dense freezing drizzle') {
+    day6Icon.src = './weatherIcons/drizzle.png'
+} else if (descriptionSpan6.textContent === 'Light rain') {
+    day6Icon.src = './weatherIcons/drizzle.png'
+} else if (descriptionSpan6.textContent === 'Light freezing rain') {
+    day6Icon.src = './weatherIcons/drizzle.png'
+} else if (descriptionSpan6.textContent === 'Slight rain showers') {
+    day6Icon.src = './weatherIcons/drizzle.png'
+} else if (descriptionSpan6.textContent === 'Moderate rain') {
+    day6Icon.src = './weatherIcons/rain.png'
+} else if (descriptionSpan6.textContent === 'Moderate rain showers') {
+    day6Icon.src = './weatherIcons/rain.png'
+} else if (descriptionSpan6.textContent === 'Heavy rain') {
+    day6Icon.src = './weatherIcons/sunny-sunny.png'
+} else if (descriptionSpan6.textContent === 'Violent rain showers') {
+    day6Icon.src = './weatherIcons/sunny-sunny.png'
+} else if (descriptionSpan6.textContent === 'Heavy freezing rain') {
+    day6Icon.src = './weatherIcons/sunny-sunny.png'
+} else if (descriptionSpan6.textContent === 'Slight snow fall') {
+    day6Icon.src = './weatherIcons/snow.png'
+} else if (descriptionSpan6.textContent === 'Snow grains') {
+    day6Icon.src = './weatherIcons/snow.png'
+} else if (descriptionSpan6.textContent === 'Slight snow showers') {
+    day6Icon.src = './weatherIcons/snow.png'
+} else if (descriptionSpan6.textContent === 'Heavy snow showers') {
+    day6Icon.src = './weatherIcons/heavy-snow.png'
+} else if (descriptionSpan6.textContent === 'Moderate snow fall') {
+    day6Icon.src = './weatherIcons/heavy-snow.png'
+} else if (descriptionSpan6.textContent === 'Heavy snow fall') {
+    day6Icon.src = './weatherIcons/heavy-snow.png'
+} else if (descriptionSpan6.textContent === 'Thunderstorm') {
+    day6Icon.src = './weatherIcons/thunder.png'
+} else if (descriptionSpan6.textContent === 'Thunderstorm with slight hail') {
+    day6Icon.src = './weatherIcons/thunder.png'
+} else if (descriptionSpan6.textContent === 'Thunderstorm with heavy hail') {
+    day6Icon.src = './weatherIcons/thunder.png'
+};
 
-    if (descriptionSpan7.textContent === 'Clear sky') {
-        day7Icon.src = './weatherIcons/sunny-clear.png'
-    } else if (descriptionSpan7.textContent === 'Mainly clear') {
-        day7Icon.src = './weatherIcons/partly-cloudy.png'
-    } else if (descriptionSpan7.textContent === 'Partly cloudy') {
-        day7Icon.src = './weatherIcons/partly-cloudy.png'
-    } else if (descriptionSpan7.textContent === 'Overcast') {
-        day7Icon.src = './weatherIcons/overcast.png'
-    } else if (descriptionSpan7.textContent === 'Fog') {
-        day7Icon.src = './weatherIcons/foggy.png'
-    } else if (descriptionSpan7.textContent === 'Depositing rime fog') {
-        day7Icon.src = './weatherIcons/foggy.png'
-    } else if (descriptionSpan7.textContent === 'Light drizzle') {
-        day7Icon.src = './weatherIcons/drizzle.png'
-    } else if (descriptionSpan7.textContent === 'Moderate drizzle') {
-        day7Icon.src = './weatherIcons/drizzle.png'
-    } else if (descriptionSpan7.textContent === 'Dense drizzle') {
-        day7Icon.src = './weatherIcons/drizzle.png'
-    } else if (descriptionSpan7.textContent === 'Light freezing drizzle') {
-        day7Icon.src = './weatherIcons/drizzle.png'
-    } else if (descriptionSpan7.textContent === 'Dense freezing drizzle') {
-        day7Icon.src = './weatherIcons/drizzle.png'
-    } else if (descriptionSpan7.textContent === 'Light rain') {
-        day7Icon.src = './weatherIcons/drizzle.png'
-    } else if (descriptionSpan7.textContent === 'Light freezing rain') {
-        day7Icon.src = './weatherIcons/drizzle.png'
-    } else if (descriptionSpan7.textContent === 'Slight rain showers') {
-        day7Icon.src = './weatherIcons/drizzle.png'
-    } else if (descriptionSpan7.textContent === 'Moderate rain') {
-        day7Icon.src = './weatherIcons/rain.png'
-    } else if (descriptionSpan7.textContent === 'Moderate rain showers') {
-        day7Icon.src = './weatherIcons/rain.png'
-    } else if (descriptionSpan7.textContent === 'Heavy rain') {
-        day7Icon.src = './weatherIcons/sunny-sunny.png'
-    } else if (descriptionSpan7.textContent === 'Violent rain showers') {
-        day7Icon.src = './weatherIcons/sunny-sunny.png'
-    } else if (descriptionSpan7.textContent === 'Heavy freezing rain') {
-        day7Icon.src = './weatherIcons/sunny-sunny.png'
-    } else if (descriptionSpan7.textContent === 'Slight snow fall') {
-        day7Icon.src = './weatherIcons/snow.png'
-    } else if (descriptionSpan7.textContent === 'Snow grains') {
-        day7Icon.src = './weatherIcons/snow.png'
-    } else if (descriptionSpan7.textContent === 'Slight snow showers') {
-        day7Icon.src = './weatherIcons/snow.png'
-    } else if (descriptionSpan7.textContent === 'Heavy snow showers') {
-        day7Icon.src = './weatherIcons/heavy-snow.png'
-    } else if (descriptionSpan7.textContent === 'Moderate snow fall') {
-        day7Icon.src = './weatherIcons/heavy-snow.png'
-    } else if (descriptionSpan7.textContent === 'Heavy snow fall') {
-        day7Icon.src = './weatherIcons/heavy-snow.png'
-    } else if (descriptionSpan7.textContent === 'Thunderstorm') {
-        day7Icon.src = './weatherIcons/thunder.png'
-    } else if (descriptionSpan7.textContent === 'Thunderstorm with slight hail') {
-        day7Icon.src = './weatherIcons/thunder.png'
-    } else if (descriptionSpan7.textContent === 'Thunderstorm with heavy hail') {
-        day7Icon.src = './weatherIcons/thunder.png'
-    };
+if (descriptionSpan7.textContent === 'Clear sky') {
+    day7Icon.src = './weatherIcons/sunny-clear.png'
+} else if (descriptionSpan7.textContent === 'Mainly clear') {
+    day7Icon.src = './weatherIcons/partly-cloudy.png'
+} else if (descriptionSpan7.textContent === 'Partly cloudy') {
+    day7Icon.src = './weatherIcons/partly-cloudy.png'
+} else if (descriptionSpan7.textContent === 'Overcast') {
+    day7Icon.src = './weatherIcons/overcast.png'
+} else if (descriptionSpan7.textContent === 'Fog') {
+    day7Icon.src = './weatherIcons/foggy.png'
+} else if (descriptionSpan7.textContent === 'Depositing rime fog') {
+    day7Icon.src = './weatherIcons/foggy.png'
+} else if (descriptionSpan7.textContent === 'Light drizzle') {
+    day7Icon.src = './weatherIcons/drizzle.png'
+} else if (descriptionSpan7.textContent === 'Moderate drizzle') {
+    day7Icon.src = './weatherIcons/drizzle.png'
+} else if (descriptionSpan7.textContent === 'Dense drizzle') {
+    day7Icon.src = './weatherIcons/drizzle.png'
+} else if (descriptionSpan7.textContent === 'Light freezing drizzle') {
+    day7Icon.src = './weatherIcons/drizzle.png'
+} else if (descriptionSpan7.textContent === 'Dense freezing drizzle') {
+    day7Icon.src = './weatherIcons/drizzle.png'
+} else if (descriptionSpan7.textContent === 'Light rain') {
+    day7Icon.src = './weatherIcons/drizzle.png'
+} else if (descriptionSpan7.textContent === 'Light freezing rain') {
+    day7Icon.src = './weatherIcons/drizzle.png'
+} else if (descriptionSpan7.textContent === 'Slight rain showers') {
+    day7Icon.src = './weatherIcons/drizzle.png'
+} else if (descriptionSpan7.textContent === 'Moderate rain') {
+    day7Icon.src = './weatherIcons/rain.png'
+} else if (descriptionSpan7.textContent === 'Moderate rain showers') {
+    day7Icon.src = './weatherIcons/rain.png'
+} else if (descriptionSpan7.textContent === 'Heavy rain') {
+    day7Icon.src = './weatherIcons/sunny-sunny.png'
+} else if (descriptionSpan7.textContent === 'Violent rain showers') {
+    day7Icon.src = './weatherIcons/sunny-sunny.png'
+} else if (descriptionSpan7.textContent === 'Heavy freezing rain') {
+    day7Icon.src = './weatherIcons/sunny-sunny.png'
+} else if (descriptionSpan7.textContent === 'Slight snow fall') {
+    day7Icon.src = './weatherIcons/snow.png'
+} else if (descriptionSpan7.textContent === 'Snow grains') {
+    day7Icon.src = './weatherIcons/snow.png'
+} else if (descriptionSpan7.textContent === 'Slight snow showers') {
+    day7Icon.src = './weatherIcons/snow.png'
+} else if (descriptionSpan7.textContent === 'Heavy snow showers') {
+    day7Icon.src = './weatherIcons/heavy-snow.png'
+} else if (descriptionSpan7.textContent === 'Moderate snow fall') {
+    day7Icon.src = './weatherIcons/heavy-snow.png'
+} else if (descriptionSpan7.textContent === 'Heavy snow fall') {
+    day7Icon.src = './weatherIcons/heavy-snow.png'
+} else if (descriptionSpan7.textContent === 'Thunderstorm') {
+    day7Icon.src = './weatherIcons/thunder.png'
+} else if (descriptionSpan7.textContent === 'Thunderstorm with slight hail') {
+    day7Icon.src = './weatherIcons/thunder.png'
+} else if (descriptionSpan7.textContent === 'Thunderstorm with heavy hail') {
+    day7Icon.src = './weatherIcons/thunder.png'
+};
 
 }
-
 
 showButton.addEventListener("click", showWeather)
