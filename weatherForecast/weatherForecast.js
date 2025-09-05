@@ -204,6 +204,8 @@ async function showWeather() {
     }
 }
 
+// if else to populate weather icons depending on the weather indicated that day
+
 if (descriptionSpan.textContent === 'Clear sky') {
     currentWeatherIcon.src = './weatherIcons/sunny-clear.png'
 } else if (descriptionSpan.textContent === 'Mainly clear') {
@@ -613,3 +615,4 @@ if (descriptionSpan7.textContent === 'Clear sky') {
 }
 
 showButton.addEventListener("click", showWeather)
+
