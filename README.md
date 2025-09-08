@@ -10,9 +10,9 @@ This is a personal website built to serve as an online portfolio, resume, and bl
 
 ## 🧰 Tech Stack
 
-- **Frontend**: HTML5, CSS3, JavaScript (ES6+), React.js
+- **Frontend**: HTML5, CSS3, JavaScript, React.js, Python
 - **Backend**: Node.js, Express.js 
-- **Styling**: Tailwind CSS / Sass / Bootstrap (choose one)
+- **Styling**: Bootstrap (choose one)
 - **Deployment**: Netlify / GitHub Pages
 - **Version Control**: Git & GitHub
 
@@ -26,3 +26,10 @@ This is a personal website built to serve as an online portfolio, resume, and bl
   
 - 🔹 Contact form with email integration
 - 🔹 (Optional) Blog or writing section using Markdown or CMS
+
+## Key Projects
+- Person website
+- CV 
+- Weather Forecast app
+- Budget app
+- Job site or Holiday site
