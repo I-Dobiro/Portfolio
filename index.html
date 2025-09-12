@@ -1,46 +1,140 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio site</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Isaac</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
 </head>
 
 <body>
-    <nav>
-        <a href='https://codepen.io/Isaac-Dobiro' target='_blank'>My Codepen</a>
-    </nav>
-    <h1>Hi I'm Isaac</h1>
-    <p>I am based in London</p>
-    <h2>Technologies I work with</h2>
-    <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-    </ul>
-    <h2>Projects from Introductory course</h2>
-    <ul>
-        <li><a href="gallery/index.html" target="_blank">Image gallery</a></li>
-        <li><a href="googleCloneSite/index.html" target="_blank">Google homepage clone</a></li>
-        <li><a href="menu/index.html" target="_blank">Restaurant menu</a></li>
-        <li><a href="calculator/index.html" target="_blank">Calculator</a></li>
-    </ul>
-    <h2>My Projects</h2>
-    <ul>
-        <li><a href="cloudSite/index.html" target="_blank">Cloud Computing Website</a></li>
-        <li>To-do List</li>
-        <li>Budgeting app</li>
-    </ul>
-    <h2>Say hello!</h2>
-    <form id="contactForm">
-        <input type="email" id="emailInput" placeholder="Your email" aria-label="Your email" required>
-        <button type="submit">Submit</button>
-        <p id="thankyouMessage" class="message">Thank you! I'll be in touch.</p>
-    </form>
-    <script src="main.js"></script>
-    </form>
+    <div class="container--main">
+
+        <section id="wrapper--hero" class="section--page">
+            <img id="profile-pic" src="./images/NAMEORPHOTO.jpg" alt="Profile Pic">
+            <div>
+                <h1 id="user-name">Isaac Dobiro</h1>
+                <p class="bio">Junior software developer, with previous experience in finance and teaching</p>
+                <br>
+                <p id="email">DobiroIsaac@gmail.com</p>
+            </div>
+        </section>
+
+        <section class="section--page">
+            <div class="link--list">
+                <a href="#" target="_blank">LinkedIn</a>
+                <a href="#" target="_blank">GitHub</a>
+                <a href="#" target="_blank">Download Resume</a>
+            </div>
+        </section>
+
+        <section class="section--page">
+            <h2>Tech Stack</h2>
+            <div id="wrapper--techstack__items">
+                <div class="card--techstack">
+                    <span>HTML, CSS</span>
+                </div>
+                <div class="card--techstack">
+                    <span>Javascript, Python</span>
+                </div>
+                <div class="card--techstack">
+                    <span>React, NodeJS, Express</span>
+                </div>
+                <div class="card--techstack">
+                    <span>Postgresql</span>
+                </div>
+                <div class="card--techstack">
+                    <span>Git, Github, Postman, Restful API</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="section--page">
+            <h2>Projects & Accomplishments</h2>
+            <div class="card--project">
+                <a href="project1.html">Main portfolio website</a>
+            </div>
+            <div class="card--project">
+                <a href="project1.html">Cloud hosting website</a>
+            </div>
+            <div class="card--project">
+                <a href="project1.html">Budgeting app</a>
+            </div>
+            <div class="card--project">
+                <a href="project1.html">Weather forecasting app</a>
+            </div>
+            <div class="card--project">
+                <a href="project1.html">Holiday app/Car Hire app</a>
+            </div>
+        </section>
+
+        <section id="work-history-wrapper" class="section--page">
+            <h2>Work History</h2>
+            <div class="line-break"></div>
+            <div class="card--work-history">
+                <strong>English Teacher</strong>
+                <p>Date-date</p>
+                <p>Job Role -
+                    ppppppppppppppppppppppppppppppp
+                    pppppppppppppppppppppppp
+                    fdfdafsdfsadfsdfdsafsdfsd
+                    asdfsadfsdfsdfcsdfvsdfc
+                </p>
+                <ul>
+                    <li>Achievement 1</li>
+                    <li>Achievement 2</li>
+                    <li>Achievement 3</li>
+                </ul>
+
+            </div>
+            <div class="line-break"></div>
+            <div class="card--work-history">
+                <strong>English Teacher</strong>
+                <p>Date-date</p>
+                <p>Job Role -
+                    ppppppppppppppppppppppppppppppp
+                    pppppppppppppppppppppppp
+                    fdfdafsdfsadfsdfdsafsdfsd
+                    asdfsadfsdfsdfcsdfvsdfc
+                </p>
+                <ul>
+                    <li>Achievement 1</li>
+                    <li>Achievement 2</li>
+                    <li>Achievement 3</li>
+                </ul>
+
+            </div>
+            <div class="line-break"></div>
+            <div class="card--work-history">
+                <strong>English Teacher</strong>
+                <p>Date-date</p>
+                <p>Job Role -
+                    ppppppppppppppppppppppppppppppp
+                    pppppppppppppppppppppppp
+                    fdfdafsdfsadfsdfdsafsdfsd
+                    asdfsadfsdfsdfcsdfvsdfc
+                </p>
+                <ul>
+                    <li>Achievement 1</li>
+                    <li>Achievement 2</li>
+                    <li>Achievement 3</li>
+                </ul>
+
+            </div>
+        </section>
+
+        <section class="section--page">
+            <h2>SKills and Qualifications</h2>
+            <ul class="qulifications--list">
+                <li>Recently self taught programmer</li>
+                <li>Experience with front end development</li>
+                <li></li>
+            </ul>
+        </section>
+
+    </div>
 </body>
 
 </html>
