@@ -12,7 +12,7 @@ This is a personal website built to serve as an online portfolio, resume, and bl
 
 - **Frontend**: HTML5, CSS3, JavaScript, React.js, Python
 - **Backend**: Node.js, Express.js 
-- **Styling**: Bootstrap (choose one)
+- **Styling**: Bootstrap 
 - **Deployment**: Netlify / GitHub Pages
 - **Version Control**: Git & GitHub
 
@@ -23,13 +23,11 @@ This is a personal website built to serve as an online portfolio, resume, and bl
 - 🔹 Skills & Tech Stack showcase
 - 🔹 Projects section with GitHub links and live demos
 - 🔹 Work Experience and Education timeline
-  
 - 🔹 Contact form with email integration
-- 🔹 (Optional) Blog or writing section using Markdown or CMS
 
 ## Key Projects
 - Person website
-- CV 
+- Digital CV 
 - Weather Forecast app
 - Budget app
-- Job site or Holiday site
+- Job site
