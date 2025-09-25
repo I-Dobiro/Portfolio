@@ -1,16 +1,121 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>budgeting-app</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio site</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+
+    <div class="container--main">
+
+        <section id="wrapper--hero" class="section--page">
+            <div>
+                <h1 id="user-name">Isaac Dobiro</h1>
+                <p class="bio">Junior software developer, with previous experience in finance and teaching</p>
+                <p id="email">DobiroIsaac@gmail.com</p>
+            </div>
+        </section>
+
+        <!-- <section class="section--page">
+            <div class="link--list">
+                <a href="#" target="_blank">LinkedIn</a>
+                <a href="#" target="_blank">GitHub</a>
+                <a href="#" target="_blank">Download Resume</a>
+            </div>
+        </section> -->
+
+        <section class="section--page">
+            <h2>Tech Stack</h2>
+            <div id="wrapper--techstack__items">
+                <div class="card--techstack">
+                    <span>HTML, CSS</span>
+                </div>
+                <div class="card--techstack">
+                    <span>Javascript, Python</span>
+                </div>
+                <div class="card--techstack">
+                    <span>React, NodeJS, Express</span>
+                </div>
+                <div class="card--techstack">
+                    <span>Postgresql</span>
+                </div>
+                <div class="card--techstack">
+                    <span>Git, Github, Postman, Restful API</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- <section class="section--page">
+            <h2>Projects & Accomplishments</h2>
+            <div class="card--project">
+                <a href="project1.html">Main portfolio website</a>
+            </div>
+            <div class="card--project">
+                <a href="project1.html">Cloud hosting website</a>
+            </div>
+            <div class="card--project">
+                <a href="project1.html">Budgeting app</a>
+            </div>
+            <div class="card--project">
+                <a href="project1.html">Weather forecasting app</a>
+            </div>
+            <div class="card--project">
+                <a href="project1.html">Holiday app/Car Hire app</a>
+            </div>
+        </section> -->
+
+        <section id="work-history-wrapper" class="section--page">
+            <h2>Projects</h2>
+            <div class="line-break"></div>
+            <div class="card--work-history">
+                <p><strong>Budget Application</strong></p>
+                <p>Technologies used - HTML, CSS, Javascript, React</p>
+                <p>This is an app that takes input of monthly spending habits to
+                    produce an end account to help users make spending decisions</p>
+            </div>
+            <div class="line-break"></div>
+            <div class="card--work-history">
+                <p><strong>Holiday / Car hire app </strong></p>
+                <p>Technologies used - HTML, CSS, Javascript, React</p>
+                <p></p>
+            </div>
+            <div class="line-break"></div>
+            <div class="card--work-history">
+                <p><strong>Weather forecasting app</strong></p>
+                <p>Technologies used - HTML, CSS, Javascript, API</p>
+                <p>This is an app that takes a postcode input and searches an API to find the
+                    weather for the location, including temperature and conditions</p>
+            </div>
+            <div class="line-break"></div>
+            <div class="card--work-history">
+                <p><strong>Clous hosting website</strong></p>
+                <p>Technologies used - HTML, CSS</p>
+                <p>A static website that showcases the services of a cloud hosting service</p>
+            </div>
+        </section>
+
+        <!-- <section class="section--page">
+            <h2>SKills and Qualifications</h2>
+            <ul class="qulifications--list">
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </section> -->
+
+    </div>
+
+    <!-- <form id="contactForm">
+        <input type="email" id="emailInput" placeholder="Your email" aria-label="Your email" required>
+        <button type="submit">Submit</button>
+        <p id="thankyouMessage" class="message">Thank you! I'll be in touch.</p>
+    </form>
+    <script src="main.js"></script>
+    </form> -->
 </body>
 
 </html>
