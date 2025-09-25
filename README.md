@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 💻 Software Developer Portfolio
 
 Welcome to my software developer portfolio! This project showcases my skills, experience, and personal projects in web development, software engineering, and problem-solving.
