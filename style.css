@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300&display=swap');
+
+:root {
+    --mainTextColor: var(--mainTextColor-dark);
+    --secondaryTextColor: var(--secondaryTextColor-dark);
+    --mainLinkColor: var(--mainLinkColor-dark);
+    --mainBorderColor: var(--mainBorderColor-dark);
+    --mainBgColor: var(--mainBgColor-dark);
+
+    --mainTextColor-light: #000;
+    --secondaryTextColor-light: rgb(51 51 51);
+    --mainLinkColor-light: #0da2b8;
+    --mainBorderColor-light: rgb(218 218 218);
+    --mainBgColor-light: rgb(249 250 251);
+
+    --mainTextColor-dark: #fff;
+    --secondaryTextColor-dark: #adb0b1;
+    --mainLinkColor-dark: rgb(30, 190, 214);
+    --mainBorderColor-dark: #065ae0;
+    --mainBgColor-dark: #414243;
+
+}
+
+* {
+    font-family: 'Readex Pro';
+    line-height: 1.5em;
+    box-sizing: border-box;
+    color: var(--mainTextColor);
+}
+
+body {
+    background-color: var(--mainBgColor);
+}
+
+p span li {
+    color: var(--secondaryTextColor);
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--mainLinkColor);
+    font-weight: 500px;
+}
+
+li {
+    line-height: 1.9em;
+}
+
+.container--main {
+    max-width: 700px;
+    margin: auto;
+}
+
+.section--page {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+#wrapper--hero {
+    display: flex;
+    align-items: center;
+    gap: 4em;
+}
+
+#user-name {
+    font-size: 48px;
+    line-height: 1em;
+}
+
+#bio,
+a {
+    font-weight: 300;
+}
+
+#profile-pic {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+#email {
+    color: var(--mainTextColor);
+}
+
+.link--list {
+    display: flex;
+    justify-content: flex-start;
+    column-gap: 1em;
+    flex-wrap: wrap;
+}
+
+.link--list a {
+    font-size: 0.9em;
+    color: var(--secondaryTextColor);
+    transition: 0.5s;
+}
+
+.link--list a:hover {
+    color: var(--mainLinkColor);
+}
+
+.qualifications--list {
+    list-style: none;
+}
+
+#wrapper--techstack__items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    font-size: 0.9em;
+}
+
+.card--techstack {
+    border: 1px solid var(--mainBorderColor);
+    padding: 0.5em 1em;
+    border-radius: 5px;
+}
+
+.card--work-history {
+    border-left: solid 1px var(--mainBorderColor);
+    margin-top: 3em;
+    margin-bottom: 3em;
+    padding-left: 2em;
+}
+
+.line-break {
+    background-color: var(--mainBorderColor);
+    height: 1px;
+}
+
+.card--project {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-top: 1px solid var(--mainBorderColor);
+}
+
+.card--project a {
+    color: var(--mainTextColor);
+    transition: 0.5s;
+}
+
+.card--project a:hover {
+    color: var(--mainLinkColor);
+}
+
+/* media queries */
+
+@media (max-width: 600px) {
+    .section--page {
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+
+    #wrapper--hero {
+        display: flex;
+        align-items: center;
+        gap: 1em;
+        flex-direction: column;
+    }
+
+    #profile-pic {
+        width: 200px;
+        height: 200px;
+    }
+
+    .card--work-history {
+        border-left: none;
+        padding-left: 0;
+
+    }
+}
+
+
+input,
+button {
+    padding: 0.5rem;
+    border: 1.5px solid darkblue;
+    color: darkblue;
+    border-radius: 0.25rem;
+    background-color: transparent;
+    font-size: 1rem;
+    transition: background-color 0.25s;
+}
+
+input:hover,
+input:focus,
+button:hover,
+button:active {
+    background-color: darkgrey;
+}
+
+button {
+    cursor: pointer;
+}
+
+::placeholder {
+    color: darkblue;
+}
+
+.message {
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.25s;
+}
+
+.message.visible {
+    opacity: 1;
+    pointer-events: all;
+}
