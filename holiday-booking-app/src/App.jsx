@@ -7,6 +7,7 @@ import AddJobPage from './pages/AddJobPage'
 import NotFoundPage from './pages/NotFoundPage'
 import JobPage, {jobLoader} from './pages/JobPage'
 
+
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<MainLayout />}>

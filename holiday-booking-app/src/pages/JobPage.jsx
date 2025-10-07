@@ -58,7 +58,7 @@ const JobPage = () => {
                         to="/jobs"
                         className="text-indigo-500 hover:text-indigo-600 flex items-center"
                     >
-                        <FaArrowLeft className='mr-2 '/> Back to Job Listings
+                        <FaArrowLeft className='mr-2 ' /> Back to Job Listings
                     </Link>
                 </div>
             </section>
@@ -114,7 +114,7 @@ const JobPage = () => {
                                 <h3 className="text-xl">Contact Email:</h3>
 
                                 <p className="my-2 bg-indigo-100 p-2 font-bold">
-                                {job.company.contactEmail}
+                                    {job.company.contactEmail}
                                 </p>
 
                                 <h3 className="text-xl">Contact Phone:</h3>
@@ -128,8 +128,7 @@ const JobPage = () => {
                                 <Link
                                     to={`/jobs/edit/jobs/${job.id}`}
                                     className="bg-indigo-500 hover:bg-indigo-600 text-white text-center font-bold py-2 px-4 rounded-full w-full focus:outline-none focus:shadow-outline mt-4 block"
-                                >Edit Job</Link
-                                >
+                                >Edit Job</Link>
                                 <button
                                     className="bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded-full w-full focus:outline-none focus:shadow-outline mt-4 block"
                                 >
