@@ -1,5 +1,5 @@
-import GitHubIcon from '@material-ui/icons/GitHub'
-import LinkedInIcon from '@material-ui/icons/LinkedIn'
+import GitHubIcon from '@mui/icons-material/Github'
+import LinkedInIcon from '@mui/icons-material/LinkedIn'
 import { about } from '../../portfolio'
 import './About.css'
 
@@ -14,7 +14,7 @@ const About = () => {
                         src={
                             picture.startsWith('http')
                                 ? picture
-                                : `${process.env.PUBLIC_URL}/images/${picture}`
+                                : `${import.meta.env.BASE_URL}/images/${picture}`
                         }
                         alt={name}
                         className='about__picture'
