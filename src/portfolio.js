@@ -1,17 +1,16 @@
 const header = {
     // all the properties are optional - can be left empty or deleted
-    homepage: 'https://rjshkhr.github.io/cleanfolio',
-    title: 'JS.',
+    homepage: 'https://I-Dobiro.github.io/Portfolio',
+    title: '',
 }
 
 const about = {
     // all the properties are optional - can be left empty or deleted
-    name: 'John Smith',
-    role: 'Front End Engineer',
+    name: 'Isaac Dobiro',
+    role: 'Software Developer',
     picture: 'https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png',
 
-    description:
-        'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
+    description: 'Full-Stack Developer passionate about creating fast, scalable, and user-focused web applications',
     resume: 'https://example.com',
     social: {
         linkedin: 'https://linkedin.com',
@@ -23,32 +22,32 @@ const projects = [
     // projects can be added an removed
     // if there are no projects, Projects section won't show up
     {
-        name: 'Project 1',
-        description:
-            'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-        stack: ['SASS', 'TypeScript', 'React'],
-        sourceCode: 'https://github.com',
-        livePreview: 'https://github.com',
-        image: 'cleanfolio.png',
+        name: 'E-Commerce Store',
+        description:'',
+        stack: ['HTML', 'CSS', 'JavaScript', 'React', 'Typescript', 'Node', 'Express', 'Postgresql (via Neon & Drizzle)'],
+        sourceCode: 'https://github.com/I-Dobiro/e-commerce-store',
+        livePreview: 'https://e-commerce-store-vw9d.onrender.com/',
+        image: '',
     },
     {
-        name: 'Project 2',
-        description:
-            'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-        stack: ['SASS', 'TypeScript', 'React'],
+        name: 'Bugeting App',
+        description: '',
+        stack: ['HTML', 'CSS', 'JavaScript', 'React'],
         sourceCode: 'https://github.com',
         livePreview: 'https://github.com',
-        image: 'https://github.githubassets.com/assets/GitHub-Logo-ee398b662d42.png',
+        image: '',
     },
     {
-        name: 'Project 3',
-        description:
-            'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-        stack: ['SASS', 'TypeScript', 'React'],
+        name: 'Business Consultancy Website',
+        description: '',
+        stack: ['HTML', 'CSS', 'Javascript'],
         sourceCode: 'https://github.com',
         livePreview: 'https://github.com',
+        image: '',
     },
 ]
+
+// tech store on render https://techstore-becw.onrender.com/
 
 const skills = [
     // skills can be added or removed
@@ -58,18 +57,17 @@ const skills = [
     'JavaScript',
     'TypeScript',
     'React',
-    'Redux',
-    'SASS',
-    'Material UI',
+    'Express',
+    'Node',
     'Git',
-    'CI/CD',
-    'Jest',
-    'Enzyme',
+    'Tailwind CSS',
+    '',
+
 ]
 
 const contact = {
     // email is optional - if left empty Contact section won't show up
-    email: 'johnsmith@mail.com',
+    email: 'DobiroIsaac@gmail.com',
 }
 
 export { header, about, projects, skills, contact }

@@ -15,13 +15,13 @@
 }
 
 .dark {
-  --clr-bg: #23283e;
-  --clr-bg-alt: #2a2f4c;
-  --clr-fg: #bdbddd;
-  --clr-fg-alt: #cdcdff;
-  --clr-primary: #90a0d9;
-  --shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
-    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  --clr-bg: #1F2732;
+  --clr-bg-alt: #2B3542;
+  --clr-fg: #D6DEE6;
+  --clr-fg-alt: #A9B6C4;
+  --clr-primary: #5C7CFA;
+  --shadow: rgba(0, 0, 0, 0.35) 0px 10px 36px 0px,
+    rgba(63, 74, 86, 0.25) 0px 0px 0px 1px;
 }
 
 main {

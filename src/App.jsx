@@ -11,7 +11,7 @@ import Footer from './components/Footer/Footer'
 import './App.css'
 
 const App = () => {
-  const [{ themeName }] = useContext(ThemeContext)
+  const { themeName } = useContext(ThemeContext)
 
   return (
     <div id='top' className={`${themeName} app`}>
