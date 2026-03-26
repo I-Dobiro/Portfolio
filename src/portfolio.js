@@ -1,30 +1,26 @@
 const header = {
-    // all the properties are optional - can be left empty or deleted
     homepage: 'https://I-Dobiro.github.io/Portfolio',
     title: '',
 }
 
 const about = {
-    // all the properties are optional - can be left empty or deleted
     name: 'Isaac Dobiro',
     role: 'Software Developer',
-    picture: 'https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png',
-
+    // picture: 'https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png',
+    picture: 'https://plus.unsplash.com/premium_photo-1714618831065-8e8dadd8d3df?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dGVjaG5vbG9neSUyMGJhY2tncm91bmQlMjBzb2Z0d2FyZSUyMGRldmVsb3BtZW50fGVufDB8fDB8fHww',
     description: 'Full-Stack Developer passionate about creating fast, scalable, and user-focused web applications',
     resume: 'https://example.com',
     social: {
-        linkedin: 'https://linkedin.com',
-        github: 'https://github.com',
+        // linkedin: 'https://linkedin.com',
+        github: 'https://I-Dobiro.github.io/Portfolio',
     },
 }
 
 const projects = [
-    // projects can be added an removed
-    // if there are no projects, Projects section won't show up
     {
         name: 'E-Commerce Store',
-        description:'',
-        stack: ['HTML', 'CSS', 'JavaScript', 'React', 'Typescript', 'Node', 'Express', 'Postgresql (via Neon & Drizzle)'],
+        description: '',
+        stack: ['HTML', 'CSS', 'JavaScript', 'Typescript', 'React', 'Node', 'Express', 'Postgresql (via Neon & Drizzle)'],
         sourceCode: 'https://github.com/I-Dobiro/e-commerce-store',
         livePreview: 'https://e-commerce-store-vw9d.onrender.com/',
         image: '',
@@ -38,9 +34,9 @@ const projects = [
         image: '',
     },
     {
-        name: 'Business Consultancy Website',
+        name: 'Job Search App',
         description: '',
-        stack: ['HTML', 'CSS', 'Javascript'],
+        stack: ['HTML', 'CSS', 'JavaScript', 'React'],
         sourceCode: 'https://github.com',
         livePreview: 'https://github.com',
         image: '',
@@ -50,8 +46,6 @@ const projects = [
 // tech store on render https://techstore-becw.onrender.com/
 
 const skills = [
-    // skills can be added or removed
-    // if there are no skills, Skills section won't show up
     'HTML',
     'CSS',
     'JavaScript',
@@ -60,13 +54,17 @@ const skills = [
     'Express',
     'Node',
     'Git',
+    'Postgresql',
+    'Neon',
+    'Clerk authentication',
+    'Zustand',
+    'Helmet',
+    'Axios',
     'Tailwind CSS',
-    '',
-
+    'DaisyUi',
 ]
 
 const contact = {
-    // email is optional - if left empty Contact section won't show up
     email: 'DobiroIsaac@gmail.com',
 }
 
